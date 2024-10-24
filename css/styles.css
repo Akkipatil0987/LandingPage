@@ -1,0 +1,589 @@
+.montserrat-fonts {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #dddddd;
+}
+
+button {
+
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    padding: 8px 30px !important;
+}
+
+.big_texts {
+    font-size: 50px;
+
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    color: #fff;
+}
+
+.title {
+
+    font-size: 40px;
+
+    font-weight: 600;
+    letter-spacing: -0.015em;
+
+}
+
+.mini_title {
+
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    color: #000000CC;
+
+}
+
+.sub_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: -0.015em;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    color: #000000CC;
+}
+
+.small_text_title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.015em;
+}
+
+.small_text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+    letter-spacing: -0.015em;
+}
+
+.logoimg {
+    height: 32px;
+    width: auto;
+}
+
+
+@media (min-width: 0px) and (max-width: 320px) {
+    button {
+        font-size: 11px !important;
+        padding: 5px 20px !important;
+    }
+
+    .big_texts {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .sub_title {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .mini_title {
+        font-size: 18px;
+    }
+
+    .small_text_title {
+        font-size: 11px;
+    }
+
+    .small_text {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 485px) {
+    button {
+        font-size: 12px !important;
+        padding: 5px 20px !important;
+    }
+
+    .big_texts {
+        font-size: 32px;
+    }
+
+    .title {
+        font-size: 27px;
+    }
+
+    .sub_title {
+        font-size: 19px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .mini_title {
+        font-size: 20px;
+    }
+
+    .small_text_title {
+        font-size: 11px;
+    }
+
+    .small_text {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 486px) and (max-width: 575px) {
+    button {
+        font-size: 12px !important;
+        padding: 5px 20px !important;
+    }
+
+    .big_texts {
+        font-size: 36px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .sub_title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .mini_title {
+        font-size: 22px;
+    }
+
+    .small_text_title {
+        font-size: 12px;
+    }
+
+    .small_text {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    button {
+        font-size: 13px !important;
+        padding: 7px 20px !important;
+    }
+
+    .big_texts {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 33px;
+    }
+
+    .sub_title {
+        font-size: 21px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .mini_title {
+        font-size: 24px;
+    }
+
+    .small_text_title {
+        font-size: 13px;
+    }
+
+    .small_text {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    button {
+        font-size: 14px !important;
+        padding: 8px 20px !important;
+    }
+
+    .big_texts {
+        font-size: 44px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .sub_title {
+        font-size: 22px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .mini_title {
+        font-size: 26px;
+    }
+
+    .small_text_title {
+        font-size: 14px;
+    }
+
+    .small_text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .title {
+        font-size: 38px;
+    }
+
+    .big_texts {
+        font-size: 47px;
+    }
+
+    .sub_title {
+        font-size: 23px;
+    }
+
+    .text {
+        font-size: 17px;
+    }
+
+    .mini_title {
+        font-size: 28px;
+    }
+}
+
+/* header section css */
+.header_section {
+    background-color: #fff;
+}
+
+.header_section .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: #202020 !important;
+    padding: 10px 20px !important;
+}
+
+.header_section .navbar-expand-lg .navbar-collapse {
+
+    justify-content: space-between;
+}
+
+.header_section .loginbtn {
+    border: 1px solid #007bff;
+    margin: 0px 15px;
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .header_section .nav-link {
+        font-size: 12px;
+        padding: 5px 20px !important;
+    }
+}
+
+
+/* banner section */
+.banner_main {
+    position: relative;
+}
+
+.banner_section .banimgmain {
+    width: 100%;
+    height: 600px;
+}
+
+.banner_section .banimgmain .imgbanner {
+    width: 100%;
+    height: 100%;
+}
+
+.banner_section .layers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+.banner_section .bannertext {
+    position: absolute;
+    width: 100%;
+    bottom: 35%;
+    left: 0;
+    text-align: center;
+}
+
+.texts {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.banner_section .joinbutton_main {
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+    left: 0;
+    text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .banner_section .banimgmain {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_section .banimgmain {
+        height: 450px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+    .banner_section .banimgmain {
+        height: 550px;
+    }
+}
+
+/* snap photo section css */
+.snap_photo_section {
+    background-color: #fff;
+}
+
+.snap_photo_section .snap_photo_main {
+    padding: 50px 0px;
+}
+
+/* media section css */
+.socialmedia_section {
+    margin: 50px 0px;
+    background-color: #fff;
+}
+
+.socialmedia_main .mediaimg_main {
+    height: 640px;
+    width: 100%;
+
+}
+
+.socialmedia_main .mediaimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.socialmedia_main .media_text_div {
+    display: grid;
+    align-content: center;
+    height: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .socialmedia_main .mediaimg_main {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .socialmedia_main .mediaimg_main {
+        height: 460px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+    .socialmedia_main .mediaimg_main {
+        height: 560px;
+    }
+}
+
+/* make your section css */
+.make_section {
+    margin: 50px 0px;
+    background-color: #fff;
+}
+
+.make_section .carrds {
+
+    border: 1px solid #6e6e6e;
+}
+
+.make_section .makeimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.make_section .textbodyy {
+    min-height: 203px;
+    padding: 30px;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .make_section .textbodyy {
+        min-height: auto;
+    }
+}
+
+/* form section */
+.form_section {
+    background-color: #fff;
+}
+
+.form_section .inputtag {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    padding: 7px 10px;
+}
+
+.form_section .inputtag::placeholder {
+    font-size: 12px;
+}
+
+
+.form_section .formmain {
+    border: 1px solid #888888;
+    padding: 30px 25px;
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+    .form_section .inputtag {
+        padding: 5px 3px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 485px) {
+    .form_section .inputtag {
+        padding: 5px 5px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 486px) and (max-width: 575px) {
+    .form_section .inputtag {
+        padding: 6px 7px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .form_section .inputtag {
+        padding: 5px 3px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .form_section .inputtag {
+        padding: 3px 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .form_section .inputtag {
+        padding: 5px 7px;
+    }
+}
+
+/* footer section css */
+.footer_section {
+    /* background-color: #000000; */
+    background: #000000CC;
+
+    /* opacity: 0.8; */
+    color: #fff;
+
+}
+
+.footer_section .top_side {
+    padding: 50px 0px 30px 0px;
+}
+
+.footer_section .bottom_side {
+    border-top: 1px solid #fff;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_section .bottom_right {
+    display: flex;
+
+    align-items: center;
+}
+
+.footer_section .icon_div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #4B4B4B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_section .icon_div i {
+    font-size: 15px;
+}
+
+.footer_section .btmain {
+    text-align: end;
+}
+
+.footer_section .btmain button {
+    width: 110px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .footer_section .icon_div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer_section .btmain {
+        text-align: start;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer_section .icon_div {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1999px) {
+    .footer_section .icon_div {
+        width: 35px;
+        height: 35px;
+    }
+}
